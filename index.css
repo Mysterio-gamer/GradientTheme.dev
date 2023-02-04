@@ -1,0 +1,113 @@
+* {
+   box-sizing: border-box;
+}
+/* .parallax {
+    background-image: url('/images/backgroundImage.png');
+
+    height: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    Save for later!
+} */ 
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url('/images/backgroundImage.png');
+    
+    background-size: cover;
+  }
+.container {
+    background-image: url('/images/background.png');
+
+    /* min-height: 300px; */
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container .logo{
+    width: 50%;
+    border-radius: 45%;
+    padding: 0 20% 5%;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+.copyright {
+    color: white;
+    font-size: 20px;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+.download {
+    color: lightblue;
+    font-size: 34px;
+    margin-left: 250px;
+}
+.testing {
+    color: lightblue;
+    font-size: 34px;
+    margin-left: 100px;
+}
+
+.screenshot h1{
+    color: white;
+    font-size: 50px;
+    margin-top: -10px
+}
+.column {
+    float: left;
+    width: 13.33%;
+    padding: 5px;
+    margin-top: -40px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+/* .ver h1 {
+    color:white;
+    font-size: 34px;
+    margin-top: -10px;
+}
+.ver .box {
+    width: 35%;
+    height: 150px;
+    background-color:black;
+    border: 2px solid red;
+    border-radius: 2px;
+    border-radius: 35px;
+    margin-left: 30px;
+}
+.logo {
+    width: 25%;
+    border-radius: 20px;
+    margin-left: 0px;
+    background-color: transparent;
+    margin-top: -30px;
+}
+
+.name {
+    color: white;
+    margin-top: -50px;
+    font-size:11px;
+    margin-left: 90px;
+}
+.test {
+    color: white;
+    font-size: 20px;
+    margin-left: 120px;
+}
+h4 {
+    color: white; 
+    font-size: 20px;
+    margin-top: -0px;
+} */
